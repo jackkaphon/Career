@@ -38,3 +38,38 @@
 }
 
 
+.navbar {
+  align-items: stretch;
+  display: flex ;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* /* padding: '100px'; */
+  /* margin-left:'120px';
+  margin-Right:'120px';  */
+
+  
+
+}
+
+.navbar-section {
+  align-items: center;
+  display: flex;
+  flex: 1 0 0;
+
+  /* &:not(:first-child):last-child {
+    justify-content: flex-end;
+  } */
+}
+
+
+.layout{
+  padding: 34px;
+  margin-left: 110px;
+  margin-right: 110px;
+}
+
+.logo{
+  width: 39px;
+  height: 27px;
+}
+
