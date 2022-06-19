@@ -3,14 +3,14 @@ import logo from '../images/logo_wel.webp'
 const Scond_Content = () => {
   return (
     <>
-      <div class="columns">
-        <div class="column col-lg-12 col-md-12 col-sm-12  ">
+      <div className="columns">
+        <div className="column col-lg-12 col-md-12 col-sm-12  ">
           <div style={{ display: 'flex', justifyContent: 'center' }}>
             <img src={logo} alt="" style={{ width: '50% ', hight: '50%' }} />
           </div>
         </div>
 
-        <div class="column col-lg-12 col-md-12 col-sm-12  ">
+        <div className="column col-lg-12 col-md-12 col-sm-12  ">
           <div
             style={{
               backgroundColor: 'pink',

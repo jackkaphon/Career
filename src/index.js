@@ -5,6 +5,7 @@ import {
 import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
+import 'spectre.css'
 
 import {Provider} from 'react-redux'
 import {createStore, applyMiddleware} from 'redux'

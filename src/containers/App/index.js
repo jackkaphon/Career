@@ -7,6 +7,10 @@ import 'spectre.css'
 import NavBar from './components/Navbar'
 import First_Content from './components/First_Content'
 import Scond_Content from './components/Scond_Content'
+import OurProduct from './components/OurProduct'
+import ProductContent from './components/ProductContent'
+import PrositionList from './components/Position/PrositionList'
+
 
 const App = () => {
   const welcome_msg = useSelector((state) => state.welcome_msg)
@@ -32,6 +36,12 @@ const App = () => {
         <div >
           <Scond_Content />
         </div>
+        <OurProduct/>
+        <ProductContent/>
+        
+        <PrositionList/>
+
+       
 
         <div className="hero hero-lg ">
           <div className="hero-body">
