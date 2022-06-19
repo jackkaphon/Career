@@ -10,9 +10,9 @@ const ProductContent = () => {
       <div className="main">
         <ProductSlides images={data} />
       </div>
-      <div style={{ backgroundColor:'red'}}>
+      {/* <div style={{ backgroundColor:'red'}}>
         <p>Hello</p>
-      </div>
+      </div> */}
     </div>
   )
 }

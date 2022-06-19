@@ -9,7 +9,9 @@ import First_Content from './components/First_Content'
 import Scond_Content from './components/Scond_Content'
 import OurProduct from './components/OurProduct'
 import ProductContent from './components/ProductContent'
-import PrositionList from './components/Position/PrositionList'
+//import PrositionList from './components/Position/PrositionList'
+import Card from './components/Card'
+import List from './components/List'
 
 
 const App = () => {
@@ -39,28 +41,28 @@ const App = () => {
         <OurProduct/>
         <ProductContent/>
         
-        <PrositionList/>
+        {/* <PrositionList/> */}
 
        
 
         <div className="hero hero-lg ">
           <div className="hero-body">
             <h1>Perks and Benefits</h1>
-            <p>This is a hero example</p>
+            <Card/>
           </div>
         </div>
 
         <div className="hero hero-lg ">
           <div className="hero-body">
             <h1>Open Position</h1>
-            <p>This is a hero example</p>
+            <List/>
           </div>
         </div>
 
         <div className="hero hero-lg ">
           <div className="hero-body">
             <h1>Application process</h1>
-            <p>This is a hero example</p>
+            <Card/>
           </div>
         </div>
       </div>
